@@ -1,0 +1,57 @@
+.navbar h1 {
+    float: none;
+    text-align: center;
+    
+}
+.navbar ul {
+    float: none;
+    padding-left: 10px;
+}
+.navbar ul li a {
+    /* padding: 5px; */
+    border: 1px dotted #444;
+}
+.navbar .container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#showcase {
+    height: 400px;
+}
+#showcase .showcase-content {
+    padding-top: 40px;
+}
+#showcase .showcase-content p {
+    /* display: none; */
+    font-size: 12px;
+    padding-top: 50px;
+}
+#showcase .showcase-content h1 {
+    font-size: 32px;
+
+}
+.info-img {
+    display: none;
+    float: none;
+}
+#home-info .info-content {
+    float: none;
+    width: 100%;
+    }
+
+#home-info .info-content p {
+    padding: 10px;
+    padding-bottom: 20px;
+    font-size: 14px;
+}
+#features .box {
+    width: 100%;
+    font-size: 14px;
+}
+#main-footer {
+    font-size: 12px;
+}
+
+    
+    

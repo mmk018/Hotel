@@ -1,7 +1,6 @@
 {
   "name": "hbt_hotel",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "live": "live-server"
@@ -10,5 +9,15 @@
   "license": "ISC",
   "devDependencies": {
     "live-server": "^1.2.1"
-  }
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mmk018/Hotel.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mmk018/Hotel/issues"
+  },
+  "homepage": "https://github.com/mmk018/Hotel#readme",
+  "description": ""
 }

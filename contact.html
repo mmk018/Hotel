@@ -3,7 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" media="screen and (max-width:768px)" href="/css/mobile.css" >
     <title>HBT Hotel</title>
 </head>
 <body>
@@ -21,5 +23,54 @@
         </nav>
         
     </header>
+    <section id="contact-form" class="py-3">
+        <div class="container">
+            <h1 class="l-heading">
+                <span class="text-primary">Contact </span>
+                Us
+            </h1>
+            <p class="py-1">Please fill out the form below to contact</p>
+            <form action="" >
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" name="name" id="name" placeholder="Please type your name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" placeholder="Please type your email">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea name="message" id="message" placeholder="Please type your message"></textarea>
+                    
+                </div>
+                <button class="btn">Submit</button>
+            </form>
+        </div>
+    </section>
+    <div class="clr"></div>
+    <section id="contact-info" class="bg-dark">
+        <div class="container">
+            <div class="box">
+                <i class="fas fa-hotel fa-3x"></i>
+                <h3>Location</h3>
+                <p>Wandalenweg 30</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-phone fa-3x"></i>
+                <h3>Phone number</h3>
+                <p>040 (222-333)</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-envelope fa-3x"></i>
+                <h3>Email Address</h3>
+                <p>info@bt-hotel.com</p>
+            </div> 
+            <div class="clr"></div>   
+        </div>
+    </section>
+    <footer id="main-footer">
+        <p>Hotel BT &copy; 2020, All Right reserved</p>
+    </footer>
 </body>
 </html>
