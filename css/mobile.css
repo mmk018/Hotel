@@ -52,6 +52,38 @@
 #main-footer {
     font-size: 12px;
 }
+.info-right {
+    display: none;
+    float:none;
+}
+#about-info .info-left {
+    float: none;
+    width: 100%;
+    text-align: center;‚
+}
+.l-heading {
+    font-size: 25px;
+    
+}
+.py-3 {
+    font-size: 12px;
+}
+#comments {
+    padding-top: 20px;
+    height: auto;
+}
+#comments .l-heading {
+    font-size: 18px;
+}
+#comments p {
+    font-size: 12px;
+}
+.box {
+    float:none;
+    width: 100%;
+    padding: 20px;
+}
+
 
     
     
